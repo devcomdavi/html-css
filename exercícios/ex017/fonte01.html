@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work sans' Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1 em
+            */
+            font-size: 1em;
+            
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            /* shothand font
+            - font-style -> font-weight -> font-size -> font-family 
+            
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work sans', sans-serif; 
+        }
+        h2 {
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium sed cum tempore esse, dolor id officia assumenda rem dicta aliquid praesentium facere asperiores, aspernatur iure eaque consequuntur ducimus suscipit deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolor corrupti suscipit a delectus voluptatibus placeat! In iste eum hic iure eius error repudiandae omnis, esse corporis numquam perferendis ipsa.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore optio et dolore corrupti quasi, beatae accusantium tenetur aliquam aspernatur molestias fuga perferendis. Minus quod non delectus repellat blanditiis aperiam labore!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quaerat quidem distinctio ullam rem similique nemo ipsa maxime ipsum praesentium nesciunt explicabo molestiae repellendus quae, minus, optio quisquam fuga provident?</p>
+</body>
+</html>
